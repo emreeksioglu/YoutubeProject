@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Youtube Playlist Pour Excel</string>
+    <string name="txtUrlHint">Entrez Youtube PlayList URL</string>
+    <string name="btnSearchText">Obtenez playlist</string>
+    <string name="btnExportText">Exporter vers Excel</string>
+    <string name="txtMsgText">Bonjour!</string>
+</resources>

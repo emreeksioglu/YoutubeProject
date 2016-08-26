@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ekswork.youtubeplaylisttoexcel.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtMsgText"
+        android:id="@+id/txtMessage"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtUrl"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSearchText"
+        android:id="@+id/btnSearch"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/txtUrl"
+
+        android:layout_toLeftOf="@+id/txtMessage"
+        android:layout_toStartOf="@+id/txtMessage" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUrl"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/txtUrlHint"
+        />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstVideos"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnSearch" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnExportText"
+        android:id="@+id/btnExport"
+        android:layout_above="@+id/lstVideos"
+        android:layout_alignRight="@+id/lstVideos" />
+</RelativeLayout>

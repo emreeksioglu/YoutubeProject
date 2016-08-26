@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Youtube Play List To Excel</string>
+    <string name="txtUrlHint">Enter Youtube PlayList URL</string>
+    <string name="btnSearchText">Get Playlist</string>
+    <string name="btnExportText">Export To Excel</string>
+    <string name="txtMsgText">Hello!</string>
+
+    <string name="msgLoadingText">Loading.. Plese wait</string>
+    <string name="msgSaveSuccess">Successfully saved</string>
+    <string name="msgSaveError">Error while data is saving</string>
+    <string name="msgErrorUrlIsUnvalid">Url is not valid</string>
+
+    <string name="ISOK">Success</string>
+    <string name="msgVideoFound"> Video found</string>
+
+
+</resources>

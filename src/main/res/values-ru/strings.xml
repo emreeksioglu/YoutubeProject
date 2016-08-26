@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Youtube Список воспроизведения Для Excel</string>
+    <string name="txtUrlHint">Введите URL Youtube PlayList</string>
+    <string name="btnSearchText">Получить плейлист</string>
+    <string name="btnExportText">Экспорт в Excel</string>
+    <string name="txtMsgText">Здравствуйте!</string>
+</resources>

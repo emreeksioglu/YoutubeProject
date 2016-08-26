@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Youtube Play List To Excel</string>
+    <string name="txtUrlHint">Youtube PlayList Adresi</string>
+    <string name="btnSearchText">Başla</string>
+    <string name="btnExportText">Excel\'e At</string>
+    <string name="txtMsgText">Haydi Başlayalım</string>
+</resources>
